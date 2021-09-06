@@ -9,9 +9,17 @@ import SwiftUI
 
 @main
 struct BalecyCodingChallengeApp: App {
+    let serviceContainer: ServiceContainer
+    let mainViewModel: PinBoardViewModel
+    
+    init() {
+        serviceContainer = .init()
+        mainViewModel = .init(serviceContainer: serviceContainer)
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PinBoardView(viewModel: AnyViewModel(mainViewModel))
         }
     }
 }
