@@ -45,6 +45,7 @@
 		A0DF7C9626E6224600D0EAAC /* ComposePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF7C9526E6224600D0EAAC /* ComposePostView.swift */; };
 		A0DF7C9826E6225500D0EAAC /* ComposePostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF7C9726E6225500D0EAAC /* ComposePostViewModel.swift */; };
 		A0DF7C9A26E635B600D0EAAC /* Animation+BalecySpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DF7C9926E635B600D0EAAC /* Animation+BalecySpring.swift */; };
+		A0DF7C9C26E63E8600D0EAAC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A0DF7C9B26E63E8600D0EAAC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		A0DF7C9526E6224600D0EAAC /* ComposePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposePostView.swift; sourceTree = "<group>"; };
 		A0DF7C9726E6225500D0EAAC /* ComposePostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposePostViewModel.swift; sourceTree = "<group>"; };
 		A0DF7C9926E635B600D0EAAC /* Animation+BalecySpring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation+BalecySpring.swift"; sourceTree = "<group>"; };
+		A0DF7C9B26E63E8600D0EAAC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				A0DF7C4126E603CE00D0EAAC /* Assets.xcassets */,
 				A0DF7C4626E603CE00D0EAAC /* Info.plist */,
 				A0DF7C8826E6189D00D0EAAC /* GoogleService-Info.plist */,
+				A0DF7C9B26E63E8600D0EAAC /* README.md */,
 				A0DF7C4326E603CE00D0EAAC /* Preview Content */,
 			);
 			path = BalecyCodingChallenge;
@@ -289,6 +292,7 @@
 				A0DF7C4526E603CE00D0EAAC /* Preview Assets.xcassets in Resources */,
 				A0DF7C8226E6128C00D0EAAC /* OFL.txt in Resources */,
 				A0DF7C8526E6128C00D0EAAC /* Montserrat-Regular.ttf in Resources */,
+				A0DF7C9C26E63E8600D0EAAC /* README.md in Resources */,
 				A0DF7C8726E6128C00D0EAAC /* Montserrat-ThinItalic.ttf in Resources */,
 				A0DF7C7A26E6128C00D0EAAC /* Montserrat-Italic.ttf in Resources */,
 				A0DF7C7B26E6128C00D0EAAC /* Montserrat-MediumItalic.ttf in Resources */,
