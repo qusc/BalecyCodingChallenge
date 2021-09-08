@@ -45,6 +45,7 @@ struct PinBoardView: View {
                 ComposePostView(viewModel: $0)
                     .background(Color.white.padding(.bottom, -100))
                     .frame(height: 300)
+                    .clipped()
                     .shadow(color: .primary.opacity(0.2), radius: 30)
                     .transition(.move(edge: .bottom).combined(with: .opacity))
                     .animation(.balecySpring)
